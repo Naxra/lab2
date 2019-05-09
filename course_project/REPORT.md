@@ -238,7 +238,7 @@ Y = 'Людмила /Кострюкова/' ;
 Y = 'Елена /Кострюкова/' ;
 Y = 'Людмила /Кострюкова/'.
 
-% ну и пример подлиннее
+% длинный пример
 ?- relative(Way, 'Николай //', 'Екатерина //').
 Way = [potomok, mother, potomok, father, mother, potomok] ;
 Way = [potomok, mother, potomok, father, mother, potomok, mother] ;
