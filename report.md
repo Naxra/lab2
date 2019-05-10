@@ -342,7 +342,7 @@
 		(bind ?answer (read)))
 	(assert (CreateOrShoot (GameCreateOrShoot ?answer))))
 ```
-	Пример работы:
+# Пример работы:
 ```CLIPS	
 CLIPS> (facts) f-1     (Price (GamePrice yes))
 f-2     (Coop (GameCoop yes))
